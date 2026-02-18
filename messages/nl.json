@@ -1,0 +1,359 @@
+{
+  "Metadata": {
+    "home": {
+      "title": "Isa Warps - Profvoetbalster | Timnas Putri Indonesia | Warbeyen Frauen",
+      "description": "Officiële website van Isa Warps, professioneel voetbalster bij VfR Warbeyen Frauen en het Indonesisch vrouwenelftal. Ontdek haar verhaal, wedstrijden en samenwerkingsmogelijkheden."
+    },
+    "about": {
+      "title": "Over Isa Warps",
+      "description": "Leer meer over Isa Warps - van Eindhoven naar het internationale podium. Haar carrière, prestaties en passie voor vrouwenvoetbal."
+    },
+    "matches": {
+      "title": "Wedstrijden & Resultaten",
+      "description": "Bekijk aankomende wedstrijden en resultaten van Isa Warps bij VfR Warbeyen Frauen en Timnas Putri Indonesia."
+    },
+    "mediaKit": {
+      "title": "Media Kit",
+      "description": "Download de media kit van Isa Warps met statistieken, bereik en samenwerkingsmogelijkheden."
+    },
+    "partnerships": {
+      "title": "Partnerships & Sponsoring",
+      "description": "Ontdek de partnership mogelijkheden met Isa Warps. Van premium partner tot supporting partner."
+    },
+    "updates": {
+      "title": "Updates & Nieuws",
+      "description": "Laatste nieuws en updates van Isa Warps. Wedstrijdverslagen, training en persoonlijke verhalen."
+    },
+    "contact": {
+      "title": "Contact",
+      "description": "Neem contact op met Isa Warps voor sponsoring, media of algemene vragen."
+    }
+  },
+  "Navigation": {
+    "home": "Home",
+    "about": "Over Mij",
+    "matches": "Wedstrijden",
+    "mediaKit": "Media Kit",
+    "partnerships": "Partnerships",
+    "updates": "Updates",
+    "contact": "Contact"
+  },
+  "Common": {
+    "readMore": "Lees meer",
+    "downloadMediaKit": "Download Media Kit",
+    "becomePartner": "Word Partner",
+    "contactUs": "Neem contact op",
+    "viewAll": "Bekijk alles",
+    "upcoming": "Aankomend",
+    "past": "Afgelopen",
+    "all": "Alle",
+    "loading": "Laden...",
+    "send": "Versturen",
+    "success": "Succesvol verzonden!",
+    "required": "Verplicht veld",
+    "invalidEmail": "Ongeldig e-mailadres",
+    "language": "Taal"
+  },
+  "Home": {
+    "hero": {
+      "tagline": "Profvoetbalster | Timnas Putri Indonesia | Warbeyen Frauen",
+      "ctaMediaKit": "Bekijk Media Kit",
+      "ctaSponsor": "Word Sponsor"
+    },
+    "about": {
+      "title": "Over Isa",
+      "text": "Isa Warps is een Nederlands-Indonesische profvoetbalster die haar passie voor het voetbal combineert met het vertegenwoordigen van twee culturen op het hoogste niveau. Als speelster van VfR Warbeyen Frauen in de Duitse 2. Bundesliga en international voor Timnas Putri Indonesia, bouwt ze aan een inspirerend carrière op het internationale podium.",
+      "readMore": "Lees meer over Isa"
+    },
+    "stats": {
+      "title": "Cijfers & Prestaties",
+      "internationalCaps": "Interlands",
+      "goals": "Doelpunten",
+      "socialReach": "Social Media Bereik",
+      "careerClubs": "Clubs"
+    },
+    "sponsors": {
+      "title": "Partners",
+      "cta": "Word Partner"
+    },
+    "matches": {
+      "title": "Aankomende Wedstrijden",
+      "viewAll": "Bekijk alle wedstrijden"
+    },
+    "updates": {
+      "title": "Laatste Updates",
+      "viewAll": "Bekijk alle updates"
+    },
+    "cta": {
+      "title": "Interesse in sponsoring?",
+      "subtitle": "Ontdek de mogelijkheden voor een samenwerking met Isa Warps",
+      "contact": "Neem contact op",
+      "mediaKit": "Download Media Kit"
+    }
+  },
+  "About": {
+    "hero": {
+      "title": "Over Isa",
+      "subtitle": "Van Eindhoven naar het internationale podium"
+    },
+    "biography": {
+      "title": "Mijn Verhaal",
+      "content": "Geboren en getogen in Nederland met Indonesische roots, heeft Isa Warps haar passie voor voetbal omgezet in een professionele carrière die twee continenten omspant. Vanaf haar eerste stappen op het veld bij DBS Eindhoven op jonge leeftijd, wist ze dat voetbal haar leven zou bepalen.\n\nNa jaren van ontwikkeling bij Nederlandse clubs als FC Eindhoven en RKSV Nuenen, maakte Isa de overstap naar het internationale toneel. Bij KRC Genk Ladies in België en NAC Breda in de Eredivisie Vrouwen verfijnde ze haar vaardigheden en groeide ze uit tot een veelzijdige aanvaller.\n\nIn 2023 volgde een droom toen ze werd geselecteerd voor Timnas Putri Indonesia, het Indonesisch vrouwenelftal. Met inmiddels 6 interlands en haar eerste internationale doelpunt op haar naam, vertegenwoordigt ze met trots haar Indonesische erfgoed op het wereldtoneel.\n\nSinds 2025 speelt Isa voor VfR Warbeyen Frauen in de Duitse 2. Bundesliga, waar ze zich dagelijks meet met de beste speelsters. Haar snelheid, techniek en schot maken haar een gevaarlijke aanvaller die op meerdere posities uit de voeten kan.\n\nNaast haar carrière op het veld zet Isa zich in voor de ontwikkeling van vrouwenvoetbal, met name in Indonesië. Ze gelooft dat sport de kracht heeft om jonge vrouwen te inspireren en kansen te creëren."
+    },
+    "timeline": {
+      "title": "Carrière"
+    },
+    "gallery": {
+      "title": "Fotogalerij"
+    },
+    "personalInfo": {
+      "title": "Persoonlijke Informatie",
+      "sectionTitle": "Feiten",
+      "position": "Positie",
+      "positionValue": "AM / RW / LW",
+      "age": "Leeftijd",
+      "ageValue": "20 jaar",
+      "nationality": "Nationaliteit",
+      "nationalityValue": "Nederlands / Indonesisch",
+      "currentClub": "Huidige Club",
+      "currentClubValue": "VfR Warbeyen Frauen",
+      "internationalTeam": "Nationaal Team",
+      "internationalTeamValue": "Timnas Putri Indonesia",
+      "caps": "Interlands",
+      "capsValue": "12",
+      "goals": "Doelpunten",
+      "goalsValue": "2"
+    }
+  },
+  "Matches": {
+    "hero": {
+      "title": "Wedstrijden",
+      "subtitle": "Kalender en resultaten"
+    },
+    "filter": {
+      "all": "Alle teams",
+      "timnas": "Timnas Putri Indonesia",
+      "warbeyen": "VfR Warbeyen Frauen"
+    },
+    "view": {
+      "list": "Lijst",
+      "calendar": "Kalender"
+    },
+    "status": {
+      "upcoming": "Aankomend",
+      "past": "Afgelopen",
+      "live": "Live"
+    },
+    "vs": "vs",
+    "at": "te",
+    "noMatches": "Geen wedstrijden gevonden"
+  },
+  "MediaKit": {
+    "hero": {
+      "title": "Media Kit",
+      "subtitle": "Download materialen en informatie"
+    },
+    "download": {
+      "title": "Download Media Kit",
+      "description": "Compleet overzicht van statistieken, bereik en samenwerkingsmogelijkheden",
+      "button": "Download PDF",
+      "lastUpdated": "Laatst bijgewerkt",
+      "fileSize": "Bestandsgrootte"
+    },
+    "extras": {
+      "title": "Extra Downloads",
+      "photos": "High-res Foto's",
+      "photosDesc": "Professionele foto's in hoge resolutie",
+      "logos": "Logo Pack",
+      "logosDesc": "Logo's in verschillende formaten",
+      "factSheet": "Fact Sheet",
+      "factSheetDesc": "Snel overzicht van feiten en cijfers"
+    },
+    "preview": {
+      "title": "Wat zit er in de Media Kit?",
+      "items": {
+        "bio": "Professionele biografie",
+        "stats": "Carrière statistieken",
+        "social": "Social media bereik & engagement",
+        "demographics": "Doelgroep demografische data",
+        "packages": "Sponsorship mogelijkheden",
+        "photos": "High-res foto's",
+        "contact": "Contactinformatie"
+      }
+    }
+  },
+  "Partnerships": {
+    "hero": {
+      "title": "Partnerships",
+      "subtitle": "Samen scoren"
+    },
+    "whySponsor": {
+      "title": "Waarom Isa Sponsoren?",
+      "dualMarket": {
+        "title": "Dual Market Bereik",
+        "description": "Bereik zowel de Nederlandse als Indonesische markt door Isa's unieke achtergrond en aanwezigheid in beide landen."
+      },
+      "growing": {
+        "title": "Groeiend Platform",
+        "description": "Een snel groeiend social media bereik met een betrokken en loyale community van voetbalfans."
+      },
+      "professional": {
+        "title": "Professionele Uitstraling",
+        "description": "Professionele presentatie en merkwaarden die passen bij ambitieuze merken en bedrijven."
+      },
+      "engagement": {
+        "title": "Hoge Engagement",
+        "description": "Authentieke content en persoonlijke benadering zorgen voor hoge betrokkenheid van volgers."
+      }
+    },
+    "tiers": {
+      "title": "Partnership Mogelijkheden",
+      "premium": {
+        "name": "Premium Partner",
+        "price": "Op aanvraag",
+        "benefits": [
+          "Logo op trainingskleding (buiten wedstrijden)",
+          "Exclusieve social media content (8-12 posts/maand)",
+          "Persoonlijke merkambassadeur voor events",
+          "Product placement in alle content",
+          "Meet & greets bij sponsor evenementen",
+          "Maandelijkse content packages (foto's + video's)",
+          "Eerste recht op nieuwe partnership kansen",
+          "Maandelijkse rapportage met bereik & engagement"
+        ]
+      },
+      "official": {
+        "name": "Official Partner",
+        "price": "Op aanvraag",
+        "benefits": [
+          "Logo op website (partner sectie)",
+          "Logo op social media profiel/bio",
+          "Maandelijkse social media posts (4-6 vermeldingen)",
+          "Product gebruik zichtbaar in content",
+          "Content samenwerkingen en campagnes",
+          "Kwartaal rapportage met statistieken"
+        ]
+      },
+      "supporting": {
+        "name": "Supporting Partner",
+        "price": "Op aanvraag",
+        "benefits": [
+          "Logo op website",
+          "Maandelijkse social media vermelding",
+          "Nieuwsbrief vermelding",
+          "Jaarlijkse rapportage"
+        ]
+      }
+    },
+    "currentPartners": {
+      "title": "Huidige Partners"
+    },
+    "inquiryForm": {
+      "title": "Interesse? Neem contact op",
+      "companyName": "Bedrijfsnaam",
+      "contactPerson": "Contactpersoon",
+      "email": "E-mail",
+      "phone": "Telefoon",
+      "tierInterest": "Type partnership",
+      "selectTier": "Selecteer een tier",
+      "message": "Bericht",
+      "gdprConsent": "Ik ga akkoord met het privacybeleid",
+      "submit": "Verstuur aanvraag",
+      "success": "Bedankt voor uw interesse! We nemen zo snel mogelijk contact met u op."
+    }
+  },
+  "Updates": {
+    "hero": {
+      "title": "Updates",
+      "subtitle": "Nieuws en verhalen"
+    },
+    "categories": {
+      "all": "Alle",
+      "matches": "Wedstrijden",
+      "training": "Training",
+      "personal": "Persoonlijk",
+      "media": "Media"
+    },
+    "newsletter": {
+      "title": "Blijf op de hoogte",
+      "description": "Ontvang de laatste updates van Isa direct in je inbox",
+      "placeholder": "Je e-mailadres",
+      "button": "Aanmelden",
+      "gdpr": "Door je aan te melden ga je akkoord met ons privacybeleid",
+      "success": "Bedankt voor je aanmelding!"
+    },
+    "readMore": "Lees meer",
+    "publishedAt": "Gepubliceerd op",
+    "relatedPosts": "Gerelateerde artikelen",
+    "backToUpdates": "Terug naar updates"
+  },
+  "Contact": {
+    "hero": {
+      "title": "Contact",
+      "subtitle": "Neem contact met ons op"
+    },
+    "info": {
+      "sponsoring": {
+        "title": "Sponsoring",
+        "description": "Voor sponsoring en partnership vragen",
+        "email": "sponsor@isawarps.com"
+      },
+      "media": {
+        "title": "Media & Pers",
+        "description": "Voor media aanvragen en interviews",
+        "email": "media@isawarps.com"
+      },
+      "general": {
+        "title": "Algemeen",
+        "description": "Voor algemene vragen en berichten",
+        "email": "info@isawarps.com"
+      }
+    },
+    "form": {
+      "title": "Stuur een bericht",
+      "name": "Naam",
+      "email": "E-mail",
+      "subject": "Onderwerp",
+      "subjects": {
+        "sponsoring": "Sponsoring",
+        "media": "Media",
+        "fan": "Fan",
+        "other": "Anders"
+      },
+      "selectSubject": "Selecteer een onderwerp",
+      "message": "Bericht",
+      "gdprConsent": "Ik ga akkoord met het privacybeleid",
+      "submit": "Verstuur bericht",
+      "success": "Bedankt voor je bericht! We nemen zo snel mogelijk contact met je op."
+    },
+    "social": {
+      "title": "Volg Isa",
+      "description": "Blijf op de hoogte via social media"
+    }
+  },
+  "Footer": {
+    "navigation": "Navigatie",
+    "quickLinks": "Snelle Links",
+    "contact": "Contact",
+    "followUs": "Volg Isa",
+    "copyright": "Alle rechten voorbehouden",
+    "privacy": "Privacybeleid",
+    "cookies": "Cookiebeleid",
+    "mediaKit": "Media Kit",
+    "partnerships": "Partnerships"
+  },
+  "CookieConsent": {
+    "title": "Cookie voorkeuren",
+    "description": "Wij gebruiken cookies om uw ervaring te verbeteren en het websiteverkeer te analyseren.",
+    "acceptAll": "Alles accepteren",
+    "rejectAll": "Alles weigeren",
+    "customize": "Aanpassen",
+    "essential": "Essentieel",
+    "essentialDesc": "Noodzakelijk voor de werking van de website",
+    "analytics": "Analytics",
+    "analyticsDesc": "Helpt ons begrijpen hoe bezoekers de website gebruiken",
+    "marketing": "Marketing",
+    "marketingDesc": "Gebruikt voor gerichte advertenties",
+    "save": "Voorkeuren opslaan"
+  }
+}

@@ -1,26 +1,69 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@theme {
+  /* Colors - Nike-inspired monochrome with surgical accents */
+  --color-primary: #111111;
+  --color-primary-light: #1A1A1A;
+  --color-primary-dark: #000000;
+
+  --color-accent-red: #E31C25;
+  --color-accent-red-light: #FF2D37;
+  --color-accent-red-dark: #B8161D;
+
+  --color-accent-blue: #00A8E1;
+  --color-accent-blue-light: #33BFEB;
+  --color-accent-blue-dark: #0086B3;
+
+  --color-surface: #FFFFFF;
+  --color-surface-alt: #FAFAFA;
+  --color-surface-dark: #F5F5F5;
+
+  --color-text: #111111;
+  --color-text-light: #555555;
+  --color-text-muted: #999999;
+  --color-text-inverse: #FFFFFF;
+
+  --color-border: #E5E5E5;
+  --color-border-light: #F0F0F0;
+
+  --color-gold: #FFD700;
+  --color-gold-dark: #DAA520;
+
+  --color-success: #10B981;
+  --color-warning: #F59E0B;
+  --color-error: #EF4444;
+
+  /* Typography - Bold, editorial */
+  --font-heading: "Montserrat", ui-sans-serif, system-ui, sans-serif;
+  --font-body: "Inter", ui-sans-serif, system-ui, sans-serif;
+
+  /* Shadows - Subtle, Nike-minimal */
+  --shadow-card: 0 1px 3px rgb(0 0 0 / 0.04), 0 1px 2px rgb(0 0 0 / 0.06);
+  --shadow-card-hover: 0 4px 12px rgb(0 0 0 / 0.08), 0 2px 4px rgb(0 0 0 / 0.04);
+  --shadow-hero: 0 25px 50px -12px rgb(0 0 0 / 0.25);
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+@layer base {
+  html {
+    scroll-behavior: smooth;
   }
-}
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  body {
+    font-family: var(--font-body);
+    color: var(--color-text);
+    background-color: var(--color-surface);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-heading);
+    font-weight: 700;
+  }
+
+  /* Nike-style selection color */
+  ::selection {
+    background-color: var(--color-accent-red);
+    color: white;
+  }
 }

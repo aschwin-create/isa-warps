@@ -1,0 +1,359 @@
+{
+  "Metadata": {
+    "home": {
+      "title": "Isa Warps - Pesepak Bola Profesional | Timnas Putri Indonesia | Warbeyen Frauen",
+      "description": "Situs resmi Isa Warps, pesepak bola profesional di VfR Warbeyen Frauen dan Timnas Putri Indonesia. Temukan kisahnya, jadwal pertandingan dan peluang kerjasama."
+    },
+    "about": {
+      "title": "Tentang Isa Warps",
+      "description": "Pelajari lebih lanjut tentang Isa Warps - dari Eindhoven ke panggung internasional. Karier, prestasi dan passionnya untuk sepak bola wanita."
+    },
+    "matches": {
+      "title": "Pertandingan & Hasil",
+      "description": "Lihat jadwal pertandingan dan hasil Isa Warps di VfR Warbeyen Frauen dan Timnas Putri Indonesia."
+    },
+    "mediaKit": {
+      "title": "Media Kit",
+      "description": "Unduh media kit Isa Warps dengan statistik, jangkauan dan peluang kerjasama."
+    },
+    "partnerships": {
+      "title": "Kemitraan & Sponsorship",
+      "description": "Temukan peluang kemitraan dengan Isa Warps. Dari premium partner hingga supporting partner."
+    },
+    "updates": {
+      "title": "Update & Berita",
+      "description": "Berita dan update terbaru dari Isa Warps. Laporan pertandingan, latihan dan cerita pribadi."
+    },
+    "contact": {
+      "title": "Kontak",
+      "description": "Hubungi Isa Warps untuk sponsorship, media atau pertanyaan umum."
+    }
+  },
+  "Navigation": {
+    "home": "Beranda",
+    "about": "Tentang",
+    "matches": "Pertandingan",
+    "mediaKit": "Media Kit",
+    "partnerships": "Kemitraan",
+    "updates": "Update",
+    "contact": "Kontak"
+  },
+  "Common": {
+    "readMore": "Baca selengkapnya",
+    "downloadMediaKit": "Unduh Media Kit",
+    "becomePartner": "Jadi Partner",
+    "contactUs": "Hubungi kami",
+    "viewAll": "Lihat semua",
+    "upcoming": "Akan datang",
+    "past": "Selesai",
+    "all": "Semua",
+    "loading": "Memuat...",
+    "send": "Kirim",
+    "success": "Berhasil terkirim!",
+    "required": "Wajib diisi",
+    "invalidEmail": "Alamat email tidak valid",
+    "language": "Bahasa"
+  },
+  "Home": {
+    "hero": {
+      "tagline": "Pesepak Bola Profesional | Timnas Putri Indonesia | Warbeyen Frauen",
+      "ctaMediaKit": "Lihat Media Kit",
+      "ctaSponsor": "Jadi Sponsor"
+    },
+    "about": {
+      "title": "Tentang Isa",
+      "text": "Isa Warps adalah pesepak bola profesional Belanda-Indonesia yang menggabungkan passionnya terhadap sepak bola dengan mewakili dua budaya di tingkat tertinggi. Sebagai pemain VfR Warbeyen Frauen di 2. Bundesliga Jerman dan pemain internasional Timnas Putri Indonesia, ia membangun karier yang inspiratif di panggung internasional.",
+      "readMore": "Baca selengkapnya tentang Isa"
+    },
+    "stats": {
+      "title": "Statistik & Prestasi",
+      "internationalCaps": "Caps Internasional",
+      "goals": "Gol",
+      "socialReach": "Jangkauan Media Sosial",
+      "careerClubs": "Klub"
+    },
+    "sponsors": {
+      "title": "Partner",
+      "cta": "Jadi Partner"
+    },
+    "matches": {
+      "title": "Pertandingan Mendatang",
+      "viewAll": "Lihat semua pertandingan"
+    },
+    "updates": {
+      "title": "Update Terbaru",
+      "viewAll": "Lihat semua update"
+    },
+    "cta": {
+      "title": "Tertarik dengan sponsorship?",
+      "subtitle": "Temukan peluang kerjasama dengan Isa Warps",
+      "contact": "Hubungi kami",
+      "mediaKit": "Unduh Media Kit"
+    }
+  },
+  "About": {
+    "hero": {
+      "title": "Tentang Isa",
+      "subtitle": "Dari Eindhoven ke panggung internasional"
+    },
+    "biography": {
+      "title": "Kisah Saya",
+      "content": "Lahir dan besar di Belanda dengan akar Indonesia, Isa Warps telah mengubah passionnya terhadap sepak bola menjadi karier profesional yang menjangkau dua benua. Sejak langkah pertamanya di lapangan bersama DBS Eindhoven di usia muda, ia tahu bahwa sepak bola akan menentukan hidupnya.\n\nSetelah bertahun-tahun berkembang di klub-klub Belanda seperti FC Eindhoven dan RKSV Nuenen, Isa melangkah ke panggung internasional. Di KRC Genk Ladies di Belgia dan NAC Breda di Eredivisie Vrouwen, ia mengasah kemampuannya dan berkembang menjadi penyerang yang serbaguna.\n\nPada tahun 2023, impian menjadi kenyataan ketika ia terpilih untuk Timnas Putri Indonesia. Dengan 6 caps internasional dan gol internasional pertamanya, ia dengan bangga mewakili warisan Indonesianya di panggung dunia.\n\nSejak 2025, Isa bermain untuk VfR Warbeyen Frauen di 2. Bundesliga Jerman, di mana ia setiap hari beradu kemampuan dengan pemain-pemain terbaik. Kecepatan, teknik dan kemampuan menembaknya menjadikannya penyerang berbahaya yang bisa bermain di berbagai posisi.\n\nDi luar kariernya di lapangan, Isa berkomitmen untuk mengembangkan sepak bola wanita, khususnya di Indonesia. Ia percaya bahwa olahraga memiliki kekuatan untuk menginspirasi perempuan muda dan menciptakan peluang."
+    },
+    "timeline": {
+      "title": "Karier"
+    },
+    "gallery": {
+      "title": "Galeri Foto"
+    },
+    "personalInfo": {
+      "title": "Informasi Pribadi",
+      "sectionTitle": "Fakta",
+      "position": "Posisi",
+      "positionValue": "AM / RW / LW",
+      "age": "Usia",
+      "ageValue": "20 tahun",
+      "nationality": "Kebangsaan",
+      "nationalityValue": "Belanda / Indonesia",
+      "currentClub": "Klub Saat Ini",
+      "currentClubValue": "VfR Warbeyen Frauen",
+      "internationalTeam": "Tim Nasional",
+      "internationalTeamValue": "Timnas Putri Indonesia",
+      "caps": "Caps Internasional",
+      "capsValue": "12",
+      "goals": "Gol",
+      "goalsValue": "2"
+    }
+  },
+  "Matches": {
+    "hero": {
+      "title": "Pertandingan",
+      "subtitle": "Jadwal dan hasil"
+    },
+    "filter": {
+      "all": "Semua tim",
+      "timnas": "Timnas Putri Indonesia",
+      "warbeyen": "VfR Warbeyen Frauen"
+    },
+    "view": {
+      "list": "Daftar",
+      "calendar": "Kalender"
+    },
+    "status": {
+      "upcoming": "Akan datang",
+      "past": "Selesai",
+      "live": "Live"
+    },
+    "vs": "vs",
+    "at": "di",
+    "noMatches": "Tidak ada pertandingan ditemukan"
+  },
+  "MediaKit": {
+    "hero": {
+      "title": "Media Kit",
+      "subtitle": "Unduh materi dan informasi"
+    },
+    "download": {
+      "title": "Unduh Media Kit",
+      "description": "Gambaran lengkap statistik, jangkauan dan peluang kerjasama",
+      "button": "Unduh PDF",
+      "lastUpdated": "Terakhir diperbarui",
+      "fileSize": "Ukuran file"
+    },
+    "extras": {
+      "title": "Unduhan Tambahan",
+      "photos": "Foto Resolusi Tinggi",
+      "photosDesc": "Foto profesional resolusi tinggi",
+      "logos": "Paket Logo",
+      "logosDesc": "Logo dalam berbagai format",
+      "factSheet": "Lembar Fakta",
+      "factSheetDesc": "Ringkasan cepat fakta dan angka"
+    },
+    "preview": {
+      "title": "Apa saja isi Media Kit?",
+      "items": {
+        "bio": "Biografi profesional",
+        "stats": "Statistik karier",
+        "social": "Jangkauan & engagement media sosial",
+        "demographics": "Data demografis audiens",
+        "packages": "Peluang sponsorship",
+        "photos": "Foto resolusi tinggi",
+        "contact": "Informasi kontak"
+      }
+    }
+  },
+  "Partnerships": {
+    "hero": {
+      "title": "Kemitraan",
+      "subtitle": "Meraih gol bersama"
+    },
+    "whySponsor": {
+      "title": "Mengapa Mensponsori Isa?",
+      "dualMarket": {
+        "title": "Jangkauan Dua Pasar",
+        "description": "Jangkau pasar Belanda dan Indonesia melalui latar belakang unik Isa dan kehadirannya di kedua negara."
+      },
+      "growing": {
+        "title": "Platform yang Berkembang",
+        "description": "Jangkauan media sosial yang tumbuh pesat dengan komunitas penggemar sepak bola yang terlibat dan loyal."
+      },
+      "professional": {
+        "title": "Citra Profesional",
+        "description": "Presentasi profesional dan nilai merek yang selaras dengan merek dan bisnis yang ambisius."
+      },
+      "engagement": {
+        "title": "Engagement Tinggi",
+        "description": "Konten autentik dan pendekatan personal menghasilkan keterlibatan pengikut yang tinggi."
+      }
+    },
+    "tiers": {
+      "title": "Pilihan Kemitraan",
+      "premium": {
+        "name": "Premium Partner",
+        "price": "Berdasarkan permintaan",
+        "benefits": [
+          "Logo di pakaian latihan (di luar pertandingan)",
+          "Konten media sosial eksklusif (8-12 post/bulan)",
+          "Brand ambassador personal untuk acara",
+          "Penempatan produk di semua konten",
+          "Meet & greet di acara sponsor",
+          "Paket konten bulanan (foto + video)",
+          "Hak prioritas peluang kemitraan baru",
+          "Laporan bulanan dengan jangkauan & engagement"
+        ]
+      },
+      "official": {
+        "name": "Official Partner",
+        "price": "Berdasarkan permintaan",
+        "benefits": [
+          "Logo di website (bagian partner)",
+          "Logo di profil/bio media sosial",
+          "Post media sosial bulanan (4-6 penyebutan)",
+          "Visibilitas produk dalam konten",
+          "Kolaborasi konten dan kampanye",
+          "Laporan kuartalan dengan statistik"
+        ]
+      },
+      "supporting": {
+        "name": "Supporting Partner",
+        "price": "Berdasarkan permintaan",
+        "benefits": [
+          "Logo di website",
+          "Penyebutan bulanan di media sosial",
+          "Penyebutan di newsletter",
+          "Laporan tahunan"
+        ]
+      }
+    },
+    "currentPartners": {
+      "title": "Partner Saat Ini"
+    },
+    "inquiryForm": {
+      "title": "Tertarik? Hubungi kami",
+      "companyName": "Nama perusahaan",
+      "contactPerson": "Narahubung",
+      "email": "Email",
+      "phone": "Telepon",
+      "tierInterest": "Jenis kemitraan",
+      "selectTier": "Pilih tier",
+      "message": "Pesan",
+      "gdprConsent": "Saya menyetujui kebijakan privasi",
+      "submit": "Kirim permintaan",
+      "success": "Terima kasih atas minat Anda! Kami akan menghubungi Anda sesegera mungkin."
+    }
+  },
+  "Updates": {
+    "hero": {
+      "title": "Update",
+      "subtitle": "Berita dan cerita"
+    },
+    "categories": {
+      "all": "Semua",
+      "matches": "Pertandingan",
+      "training": "Latihan",
+      "personal": "Pribadi",
+      "media": "Media"
+    },
+    "newsletter": {
+      "title": "Tetap terinformasi",
+      "description": "Dapatkan update terbaru dari Isa langsung di inbox Anda",
+      "placeholder": "Alamat email Anda",
+      "button": "Berlangganan",
+      "gdpr": "Dengan berlangganan, Anda menyetujui kebijakan privasi kami",
+      "success": "Terima kasih telah berlangganan!"
+    },
+    "readMore": "Baca selengkapnya",
+    "publishedAt": "Dipublikasikan pada",
+    "relatedPosts": "Artikel terkait",
+    "backToUpdates": "Kembali ke update"
+  },
+  "Contact": {
+    "hero": {
+      "title": "Kontak",
+      "subtitle": "Hubungi kami"
+    },
+    "info": {
+      "sponsoring": {
+        "title": "Sponsorship",
+        "description": "Untuk pertanyaan sponsorship dan kemitraan",
+        "email": "sponsor@isawarps.com"
+      },
+      "media": {
+        "title": "Media & Pers",
+        "description": "Untuk permintaan media dan wawancara",
+        "email": "media@isawarps.com"
+      },
+      "general": {
+        "title": "Umum",
+        "description": "Untuk pertanyaan dan pesan umum",
+        "email": "info@isawarps.com"
+      }
+    },
+    "form": {
+      "title": "Kirim pesan",
+      "name": "Nama",
+      "email": "Email",
+      "subject": "Subjek",
+      "subjects": {
+        "sponsoring": "Sponsorship",
+        "media": "Media",
+        "fan": "Penggemar",
+        "other": "Lainnya"
+      },
+      "selectSubject": "Pilih subjek",
+      "message": "Pesan",
+      "gdprConsent": "Saya menyetujui kebijakan privasi",
+      "submit": "Kirim pesan",
+      "success": "Terima kasih atas pesan Anda! Kami akan menghubungi Anda sesegera mungkin."
+    },
+    "social": {
+      "title": "Ikuti Isa",
+      "description": "Tetap terinformasi melalui media sosial"
+    }
+  },
+  "Footer": {
+    "navigation": "Navigasi",
+    "quickLinks": "Tautan Cepat",
+    "contact": "Kontak",
+    "followUs": "Ikuti Isa",
+    "copyright": "Hak cipta dilindungi",
+    "privacy": "Kebijakan Privasi",
+    "cookies": "Kebijakan Cookie",
+    "mediaKit": "Media Kit",
+    "partnerships": "Kemitraan"
+  },
+  "CookieConsent": {
+    "title": "Preferensi cookie",
+    "description": "Kami menggunakan cookie untuk meningkatkan pengalaman Anda dan menganalisis lalu lintas situs web.",
+    "acceptAll": "Terima semua",
+    "rejectAll": "Tolak semua",
+    "customize": "Sesuaikan",
+    "essential": "Esensial",
+    "essentialDesc": "Diperlukan agar situs web dapat berfungsi",
+    "analytics": "Analitik",
+    "analyticsDesc": "Membantu kami memahami bagaimana pengunjung menggunakan situs web",
+    "marketing": "Pemasaran",
+    "marketingDesc": "Digunakan untuk iklan yang ditargetkan",
+    "save": "Simpan preferensi"
+  }
+}

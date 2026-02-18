@@ -1,0 +1,359 @@
+{
+  "Metadata": {
+    "home": {
+      "title": "Isa Warps - Professional Footballer | Indonesia Women's National Team | Warbeyen Frauen",
+      "description": "Official website of Isa Warps, professional footballer at VfR Warbeyen Frauen and the Indonesia Women's National Team. Discover her story, matches and partnership opportunities."
+    },
+    "about": {
+      "title": "About Isa Warps",
+      "description": "Learn more about Isa Warps - from Eindhoven to the international stage. Her career, achievements and passion for women's football."
+    },
+    "matches": {
+      "title": "Matches & Results",
+      "description": "View upcoming matches and results for Isa Warps at VfR Warbeyen Frauen and Timnas Putri Indonesia."
+    },
+    "mediaKit": {
+      "title": "Media Kit",
+      "description": "Download Isa Warps' media kit with statistics, reach and partnership opportunities."
+    },
+    "partnerships": {
+      "title": "Partnerships & Sponsorship",
+      "description": "Discover partnership opportunities with Isa Warps. From premium partner to supporting partner."
+    },
+    "updates": {
+      "title": "Updates & News",
+      "description": "Latest news and updates from Isa Warps. Match reports, training and personal stories."
+    },
+    "contact": {
+      "title": "Contact",
+      "description": "Get in touch with Isa Warps for sponsorship, media or general inquiries."
+    }
+  },
+  "Navigation": {
+    "home": "Home",
+    "about": "About",
+    "matches": "Matches",
+    "mediaKit": "Media Kit",
+    "partnerships": "Partnerships",
+    "updates": "Updates",
+    "contact": "Contact"
+  },
+  "Common": {
+    "readMore": "Read more",
+    "downloadMediaKit": "Download Media Kit",
+    "becomePartner": "Become a Partner",
+    "contactUs": "Get in touch",
+    "viewAll": "View all",
+    "upcoming": "Upcoming",
+    "past": "Past",
+    "all": "All",
+    "loading": "Loading...",
+    "send": "Send",
+    "success": "Successfully sent!",
+    "required": "Required field",
+    "invalidEmail": "Invalid email address",
+    "language": "Language"
+  },
+  "Home": {
+    "hero": {
+      "tagline": "Professional Footballer | Indonesia Women's National Team | Warbeyen Frauen",
+      "ctaMediaKit": "View Media Kit",
+      "ctaSponsor": "Become a Sponsor"
+    },
+    "about": {
+      "title": "About Isa",
+      "text": "Isa Warps is a Dutch-Indonesian professional footballer who combines her passion for the game with representing two cultures at the highest level. As a player for VfR Warbeyen Frauen in the German 2. Bundesliga and an international for Timnas Putri Indonesia, she is building an inspiring career on the international stage.",
+      "readMore": "Read more about Isa"
+    },
+    "stats": {
+      "title": "Stats & Achievements",
+      "internationalCaps": "International Caps",
+      "goals": "Goals",
+      "socialReach": "Social Media Reach",
+      "careerClubs": "Clubs"
+    },
+    "sponsors": {
+      "title": "Partners",
+      "cta": "Become a Partner"
+    },
+    "matches": {
+      "title": "Upcoming Matches",
+      "viewAll": "View all matches"
+    },
+    "updates": {
+      "title": "Latest Updates",
+      "viewAll": "View all updates"
+    },
+    "cta": {
+      "title": "Interested in sponsorship?",
+      "subtitle": "Discover the possibilities for a collaboration with Isa Warps",
+      "contact": "Get in touch",
+      "mediaKit": "Download Media Kit"
+    }
+  },
+  "About": {
+    "hero": {
+      "title": "About Isa",
+      "subtitle": "From Eindhoven to the international stage"
+    },
+    "biography": {
+      "title": "My Story",
+      "content": "Born and raised in the Netherlands with Indonesian roots, Isa Warps has turned her passion for football into a professional career spanning two continents. From her first steps on the pitch at DBS Eindhoven at a young age, she knew that football would shape her life.\n\nAfter years of development at Dutch clubs such as FC Eindhoven and RKSV Nuenen, Isa made the move to the international stage. At KRC Genk Ladies in Belgium and NAC Breda in the Eredivisie Vrouwen, she refined her skills and developed into a versatile attacker.\n\nIn 2023, a dream came true when she was selected for Timnas Putri Indonesia, the Indonesia Women's National Team. With 6 international caps and her first international goal to her name, she proudly represents her Indonesian heritage on the world stage.\n\nSince 2025, Isa has been playing for VfR Warbeyen Frauen in the German 2. Bundesliga, where she tests herself daily against top-level players. Her pace, technique and shooting ability make her a dangerous attacker who can play across multiple positions.\n\nBeyond her career on the pitch, Isa is committed to the development of women's football, particularly in Indonesia. She believes that sport has the power to inspire young women and create opportunities."
+    },
+    "timeline": {
+      "title": "Career"
+    },
+    "gallery": {
+      "title": "Photo Gallery"
+    },
+    "personalInfo": {
+      "title": "Personal Information",
+      "sectionTitle": "Facts",
+      "position": "Position",
+      "positionValue": "AM / RW / LW",
+      "age": "Age",
+      "ageValue": "20 years",
+      "nationality": "Nationality",
+      "nationalityValue": "Dutch / Indonesian",
+      "currentClub": "Current Club",
+      "currentClubValue": "VfR Warbeyen Frauen",
+      "internationalTeam": "National Team",
+      "internationalTeamValue": "Timnas Putri Indonesia",
+      "caps": "International Caps",
+      "capsValue": "12",
+      "goals": "Goals",
+      "goalsValue": "2"
+    }
+  },
+  "Matches": {
+    "hero": {
+      "title": "Matches",
+      "subtitle": "Schedule and results"
+    },
+    "filter": {
+      "all": "All teams",
+      "timnas": "Timnas Putri Indonesia",
+      "warbeyen": "VfR Warbeyen Frauen"
+    },
+    "view": {
+      "list": "List",
+      "calendar": "Calendar"
+    },
+    "status": {
+      "upcoming": "Upcoming",
+      "past": "Past",
+      "live": "Live"
+    },
+    "vs": "vs",
+    "at": "at",
+    "noMatches": "No matches found"
+  },
+  "MediaKit": {
+    "hero": {
+      "title": "Media Kit",
+      "subtitle": "Download materials and information"
+    },
+    "download": {
+      "title": "Download Media Kit",
+      "description": "Complete overview of statistics, reach and partnership opportunities",
+      "button": "Download PDF",
+      "lastUpdated": "Last updated",
+      "fileSize": "File size"
+    },
+    "extras": {
+      "title": "Additional Downloads",
+      "photos": "High-res Photos",
+      "photosDesc": "Professional high-resolution photos",
+      "logos": "Logo Pack",
+      "logosDesc": "Logos in various formats",
+      "factSheet": "Fact Sheet",
+      "factSheetDesc": "Quick overview of facts and figures"
+    },
+    "preview": {
+      "title": "What's in the Media Kit?",
+      "items": {
+        "bio": "Professional biography",
+        "stats": "Career statistics",
+        "social": "Social media reach & engagement",
+        "demographics": "Audience demographic data",
+        "packages": "Sponsorship opportunities",
+        "photos": "High-res photos",
+        "contact": "Contact information"
+      }
+    }
+  },
+  "Partnerships": {
+    "hero": {
+      "title": "Partnerships",
+      "subtitle": "Scoring together"
+    },
+    "whySponsor": {
+      "title": "Why Sponsor Isa?",
+      "dualMarket": {
+        "title": "Dual Market Reach",
+        "description": "Reach both the Dutch and Indonesian markets through Isa's unique background and presence in both countries."
+      },
+      "growing": {
+        "title": "Growing Platform",
+        "description": "A rapidly growing social media reach with an engaged and loyal community of football fans."
+      },
+      "professional": {
+        "title": "Professional Image",
+        "description": "Professional presentation and brand values that align with ambitious brands and businesses."
+      },
+      "engagement": {
+        "title": "High Engagement",
+        "description": "Authentic content and a personal approach ensure high follower engagement."
+      }
+    },
+    "tiers": {
+      "title": "Partnership Options",
+      "premium": {
+        "name": "Premium Partner",
+        "price": "On request",
+        "benefits": [
+          "Logo on training apparel (outside matches)",
+          "Exclusive social media content (8-12 posts/month)",
+          "Personal brand ambassador for events",
+          "Product placement in all content",
+          "Meet & greets at sponsor events",
+          "Monthly content packages (photos + videos)",
+          "First rights to new partnership opportunities",
+          "Monthly reporting with reach & engagement"
+        ]
+      },
+      "official": {
+        "name": "Official Partner",
+        "price": "On request",
+        "benefits": [
+          "Logo on website (partner section)",
+          "Logo on social media profile/bio",
+          "Monthly social media posts (4-6 mentions)",
+          "Product visibility in content",
+          "Content collaborations and campaigns",
+          "Quarterly reporting with statistics"
+        ]
+      },
+      "supporting": {
+        "name": "Supporting Partner",
+        "price": "On request",
+        "benefits": [
+          "Logo on website",
+          "Monthly social media mention",
+          "Newsletter mention",
+          "Annual reporting"
+        ]
+      }
+    },
+    "currentPartners": {
+      "title": "Current Partners"
+    },
+    "inquiryForm": {
+      "title": "Interested? Get in touch",
+      "companyName": "Company name",
+      "contactPerson": "Contact person",
+      "email": "Email",
+      "phone": "Phone",
+      "tierInterest": "Partnership type",
+      "selectTier": "Select a tier",
+      "message": "Message",
+      "gdprConsent": "I agree to the privacy policy",
+      "submit": "Submit inquiry",
+      "success": "Thank you for your interest! We will get back to you as soon as possible."
+    }
+  },
+  "Updates": {
+    "hero": {
+      "title": "Updates",
+      "subtitle": "News and stories"
+    },
+    "categories": {
+      "all": "All",
+      "matches": "Matches",
+      "training": "Training",
+      "personal": "Personal",
+      "media": "Media"
+    },
+    "newsletter": {
+      "title": "Stay up to date",
+      "description": "Receive the latest updates from Isa directly in your inbox",
+      "placeholder": "Your email address",
+      "button": "Subscribe",
+      "gdpr": "By subscribing you agree to our privacy policy",
+      "success": "Thank you for subscribing!"
+    },
+    "readMore": "Read more",
+    "publishedAt": "Published on",
+    "relatedPosts": "Related articles",
+    "backToUpdates": "Back to updates"
+  },
+  "Contact": {
+    "hero": {
+      "title": "Contact",
+      "subtitle": "Get in touch with us"
+    },
+    "info": {
+      "sponsoring": {
+        "title": "Sponsorship",
+        "description": "For sponsorship and partnership inquiries",
+        "email": "sponsor@isawarps.com"
+      },
+      "media": {
+        "title": "Media & Press",
+        "description": "For media requests and interviews",
+        "email": "media@isawarps.com"
+      },
+      "general": {
+        "title": "General",
+        "description": "For general questions and messages",
+        "email": "info@isawarps.com"
+      }
+    },
+    "form": {
+      "title": "Send a message",
+      "name": "Name",
+      "email": "Email",
+      "subject": "Subject",
+      "subjects": {
+        "sponsoring": "Sponsorship",
+        "media": "Media",
+        "fan": "Fan",
+        "other": "Other"
+      },
+      "selectSubject": "Select a subject",
+      "message": "Message",
+      "gdprConsent": "I agree to the privacy policy",
+      "submit": "Send message",
+      "success": "Thank you for your message! We will get back to you as soon as possible."
+    },
+    "social": {
+      "title": "Follow Isa",
+      "description": "Stay up to date via social media"
+    }
+  },
+  "Footer": {
+    "navigation": "Navigation",
+    "quickLinks": "Quick Links",
+    "contact": "Contact",
+    "followUs": "Follow Isa",
+    "copyright": "All rights reserved",
+    "privacy": "Privacy Policy",
+    "cookies": "Cookie Policy",
+    "mediaKit": "Media Kit",
+    "partnerships": "Partnerships"
+  },
+  "CookieConsent": {
+    "title": "Cookie preferences",
+    "description": "We use cookies to improve your experience and analyse website traffic.",
+    "acceptAll": "Accept all",
+    "rejectAll": "Reject all",
+    "customize": "Customize",
+    "essential": "Essential",
+    "essentialDesc": "Necessary for the website to function",
+    "analytics": "Analytics",
+    "analyticsDesc": "Helps us understand how visitors use the website",
+    "marketing": "Marketing",
+    "marketingDesc": "Used for targeted advertising",
+    "save": "Save preferences"
+  }
+}
