@@ -24,6 +24,6 @@ export const config = {
   matcher: [
     "/",
     "/(nl|en|id|de|fr)/:path*",
-    "/((?!_next|api|trpc).*)"
+    "/((?!_next|api|trpc|images|icons|favicon.ico|robots.txt|sitemap.xml).*)"
   ],
 };
