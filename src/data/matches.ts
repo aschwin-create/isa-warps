@@ -132,7 +132,7 @@ export const matches: Match[] = [
     awayTeam: { name: "TBD", logo: "/images/teams/tbd.svg" },
     isHome: true,
     venue: { stadium: "Gelora Bung Karno", city: "Jakarta", country: "Indonesia" },
-    competition: "Friendlies",
+    competition: "Friendly",
     status: "upcoming",
   },
   {
@@ -144,7 +144,7 @@ export const matches: Match[] = [
     awayTeam: { name: "TBD", logo: "/images/teams/tbd.svg" },
     isHome: true,
     venue: { stadium: "Te bevestigen", city: "Indonesia", country: "Indonesia" },
-    competition: "Friendlies",
+    competition: "Friendly",
     status: "upcoming",
   },
   {
@@ -156,7 +156,7 @@ export const matches: Match[] = [
     awayTeam: { name: "TBD", logo: "/images/teams/tbd.svg" },
     isHome: true,
     venue: { stadium: "Te bevestigen", city: "Indonesia", country: "Indonesia" },
-    competition: "Friendlies",
+    competition: "Friendly",
     status: "upcoming",
   },
   {
@@ -168,7 +168,7 @@ export const matches: Match[] = [
     awayTeam: { name: "TBD", logo: "/images/teams/tbd.svg" },
     isHome: true,
     venue: { stadium: "Te bevestigen", city: "Indonesia", country: "Indonesia" },
-    competition: "Friendlies",
+    competition: "Friendly",
     status: "upcoming",
   },
   {
@@ -180,7 +180,7 @@ export const matches: Match[] = [
     awayTeam: { name: "TBD", logo: "/images/teams/tbd.svg" },
     isHome: true,
     venue: { stadium: "Te bevestigen", city: "Indonesia", country: "Indonesia" },
-    competition: "Friendlies",
+    competition: "Friendly",
     status: "upcoming",
   },
   {
@@ -192,7 +192,7 @@ export const matches: Match[] = [
     awayTeam: { name: "TBD", logo: "/images/teams/tbd.svg" },
     isHome: true,
     venue: { stadium: "Te bevestigen", city: "Indonesia", country: "Indonesia" },
-    competition: "Friendlies",
+    competition: "Friendly",
     status: "upcoming",
   },
   {

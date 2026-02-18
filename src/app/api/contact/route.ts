@@ -1,8 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import { Resend } from "resend";
 
-const resend = new Resend(process.env.RESEND_API_KEY);
-
 export async function POST(request: NextRequest) {
   try {
     const body = await request.json();
@@ -16,7 +14,21 @@ export async function POST(request: NextRequest) {
       );
     }
 
+    // Check if API key is configured
+    if (!process.env.RESEND_API_KEY) {
+      console.log("Contact form submission (email not sent - API key not configured):", {
+        name,
+        email,
+        subject,
+      });
+      return NextResponse.json(
+        { message: "Form received (email functionality will be activated soon)" },
+        { status: 200 }
+      );
+    }
+
     // Send email using Resend
+    const resend = new Resend(process.env.RESEND_API_KEY);
     await resend.emails.send({
       from: "Isa Warps Website <noreply@isawarps.com>",
       to: "info@isawarps.com",
