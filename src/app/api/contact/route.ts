@@ -29,7 +29,11 @@ export async function POST(request: NextRequest) {
 
     // Send email using Resend
     const resend = new Resend(process.env.RESEND_API_KEY);
-    await resend.emails.send({
+
+    console.log("Attempting to send email to:", "isa@warps.nl");
+    console.log("From:", "noreply@isawarps.com");
+
+    const result = await resend.emails.send({
       from: "Isa Warps Website <noreply@isawarps.com>",
       to: "isa@warps.nl",
       replyTo: email,
@@ -44,14 +48,17 @@ export async function POST(request: NextRequest) {
       `,
     });
 
+    console.log("Email send result:", result);
+
     return NextResponse.json(
-      { message: "Email sent successfully" },
+      { message: "Email sent successfully", result },
       { status: 200 }
     );
   } catch (error) {
     console.error("Error sending email:", error);
+    console.error("Error details:", JSON.stringify(error, null, 2));
     return NextResponse.json(
-      { error: "Failed to send email" },
+      { error: "Failed to send email", details: error instanceof Error ? error.message : String(error) },
       { status: 500 }
     );
   }
