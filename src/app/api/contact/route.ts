@@ -31,7 +31,7 @@ export async function POST(request: NextRequest) {
     const resend = new Resend(process.env.RESEND_API_KEY);
     await resend.emails.send({
       from: "Isa Warps Website <noreply@isawarps.com>",
-      to: "info@isawarps.com",
+      to: "isa@warps.nl",
       replyTo: email,
       subject: `Contact Form: ${subject}`,
       html: `

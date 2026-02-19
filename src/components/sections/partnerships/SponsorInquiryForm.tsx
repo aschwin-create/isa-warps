@@ -70,7 +70,7 @@ export function SponsorInquiryForm() {
       setIsSubmitted(true);
     } catch (error) {
       console.error("Error submitting form:", error);
-      alert("Er is iets misgegaan. Probeer het later opnieuw of stuur een email naar info@isawarps.com");
+      alert("Er is iets misgegaan. Probeer het later opnieuw of stuur een email naar isa@warps.nl");
     }
   };
 
