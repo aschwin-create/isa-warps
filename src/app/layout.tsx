@@ -1,5 +1,6 @@
 import { getLocale } from "next-intl/server";
 import { SchemaOrg } from "@/components/seo/SchemaOrg";
+import { GoogleAnalytics } from "@/components/analytics/GoogleAnalytics";
 import "@/app/globals.css";
 
 export default async function RootLayout({
@@ -18,6 +19,7 @@ export default async function RootLayout({
         <SchemaOrg locale={locale} />
       </head>
       <body className="min-h-screen flex flex-col bg-surface text-text antialiased">
+        <GoogleAnalytics />
         {children}
       </body>
     </html>

@@ -16,6 +16,7 @@ import {
 } from "lucide-react";
 import { Container } from "@/components/ui/Container";
 import { SectionHeading } from "@/components/shared/SectionHeading";
+import { trackPDFDownload } from "@/lib/analytics";
 import {
   fadeInUp,
   staggerContainer,
@@ -113,6 +114,7 @@ export function MediaKitContent() {
               <a
                 href={getMediaKitPDF()}
                 download
+                onClick={() => trackPDFDownload(`media-kit-${locale}`)}
                 className="inline-flex items-center gap-3 bg-accent-red text-white px-8 py-4 rounded-lg font-heading font-bold text-lg hover:bg-accent-red-dark transition-all duration-200 hover:scale-105 active:scale-95"
               >
                 <Download className="w-5 h-5" />
@@ -196,6 +198,7 @@ export function MediaKitContent() {
                 <div className="flex items-center justify-between">
                   <a
                     href={href}
+                    onClick={() => trackPDFDownload(titleKey)}
                     className="inline-flex items-center gap-2 text-accent-red font-heading font-semibold text-sm hover:text-accent-red-dark transition-colors"
                   >
                     <Download className="w-4 h-4" />

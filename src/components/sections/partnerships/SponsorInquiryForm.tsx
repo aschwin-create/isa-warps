@@ -14,6 +14,7 @@ import { Textarea } from "@/components/ui/Textarea";
 import { Select } from "@/components/ui/Select";
 import { Button } from "@/components/ui/Button";
 import { fadeInLeft, fadeInRight } from "@/animations/variants";
+import { trackFormSubmission } from "@/lib/analytics";
 
 const sponsorInquirySchema = z.object({
   companyName: z.string().min(2),
@@ -67,6 +68,7 @@ export function SponsorInquiryForm() {
         throw new Error("Failed to send email");
       }
 
+      trackFormSubmission('partnership');
       setIsSubmitted(true);
     } catch (error) {
       console.error("Error submitting form:", error);

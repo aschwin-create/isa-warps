@@ -14,6 +14,7 @@ import { Select } from "@/components/ui/Select";
 import { Button } from "@/components/ui/Button";
 import { SOCIAL_LINKS, CONTACT_EMAILS } from "@/lib/constants";
 import { fadeInUp, staggerContainer, staggerItem } from "@/animations/variants";
+import { trackFormSubmission, trackSocialClick } from "@/lib/analytics";
 import {
   Mail,
   Send,
@@ -123,6 +124,7 @@ export function ContactPageContent() {
         throw new Error("Failed to send email");
       }
 
+      trackFormSubmission('contact');
       setFormSubmitted(true);
       reset();
     } catch (error) {
@@ -312,6 +314,7 @@ export function ContactPageContent() {
                       href={social.href}
                       target="_blank"
                       rel="noopener noreferrer"
+                      onClick={() => trackSocialClick(social.name)}
                       whileHover={{ x: 4, transition: { duration: 0.2 } }}
                       className={cn(
                         "flex items-center gap-4 bg-surface-alt rounded-xl p-5 transition-all duration-300",
