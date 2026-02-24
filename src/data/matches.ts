@@ -25,7 +25,9 @@ export const matches: Match[] = [
     isHome: false,
     venue: { stadium: "FC Bayern Campus", city: "München", country: "Germany" },
     competition: "2. Bundesliga",
-    status: "upcoming",
+    status: "past",
+    result: { homeScore: 6, awayScore: 1 },
+    stats: { minutesPlayed: 90, goals: 0, assists: 0 },
   },
   {
     id: "match-003",
