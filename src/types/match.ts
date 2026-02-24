@@ -5,6 +5,7 @@ export type Competition = "Friendly" | "2. Bundesliga" | "AFC Qualifiers" | "AFF
 export interface Match {
   id: string;
   date: string;
+  endDate?: string;
   time: string;
   team: MatchTeam;
   homeTeam: { name: string; logo: string };

@@ -291,15 +291,19 @@ export function MatchesContent() {
                                 <div className="flex items-center gap-1.5">
                                   <Calendar className="w-4 h-4 text-accent-red" />
                                   <span>
-                                    {format(
-                                      new Date(match.date),
-                                      "d MMMM yyyy",
-                                      {
-                                        locale:
-                                          dateLocales[locale] || enUS,
-                                      }
-                                    )}{" "}
-                                    - {match.time}
+                                    {match.endDate ? (
+                                      <>
+                                        {format(new Date(match.date), "d MMM", { locale: dateLocales[locale] || enUS })}
+                                        {" – "}
+                                        {format(new Date(match.endDate), "d MMMM yyyy", { locale: dateLocales[locale] || enUS })}
+                                      </>
+                                    ) : (
+                                      <>
+                                        {format(new Date(match.date), "d MMMM yyyy", { locale: dateLocales[locale] || enUS })}
+                                        {" - "}
+                                        {match.time}
+                                      </>
+                                    )}
                                   </span>
                                 </div>
                                 <div className="flex items-center gap-1.5">

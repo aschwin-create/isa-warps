@@ -128,18 +128,7 @@ export const matches: Match[] = [
   {
     id: "match-011",
     date: "2026-04-07",
-    time: "TBD",
-    team: "timnas",
-    homeTeam: { name: "Indonesia", logo: "/images/gallery/2025_Indonesia_National_Football_Team_Badge.png" },
-    awayTeam: { name: "TBD", logo: "/images/teams/tbd.svg" },
-    isHome: true,
-    venue: { stadium: "Te bevestigen", city: "Te bevestigen", country: "Indonesia" },
-    competition: "FIFA Match Day",
-    status: "upcoming",
-  },
-  {
-    id: "match-012",
-    date: "2026-04-14",
+    endDate: "2026-04-18",
     time: "TBD",
     team: "timnas",
     homeTeam: { name: "Indonesia", logo: "/images/gallery/2025_Indonesia_National_Football_Team_Badge.png" },
@@ -152,18 +141,7 @@ export const matches: Match[] = [
   {
     id: "match-013",
     date: "2026-06-01",
-    time: "TBD",
-    team: "timnas",
-    homeTeam: { name: "Indonesia", logo: "/images/gallery/2025_Indonesia_National_Football_Team_Badge.png" },
-    awayTeam: { name: "TBD", logo: "/images/teams/tbd.svg" },
-    isHome: true,
-    venue: { stadium: "Te bevestigen", city: "Te bevestigen", country: "Indonesia" },
-    competition: "FIFA Match Day",
-    status: "upcoming",
-  },
-  {
-    id: "match-014",
-    date: "2026-06-09",
+    endDate: "2026-06-09",
     time: "TBD",
     team: "timnas",
     homeTeam: { name: "Indonesia", logo: "/images/gallery/2025_Indonesia_National_Football_Team_Badge.png" },
@@ -176,6 +154,7 @@ export const matches: Match[] = [
   {
     id: "match-015",
     date: "2026-07-17",
+    endDate: "2026-07-26",
     time: "TBD",
     team: "timnas",
     homeTeam: { name: "Indonesia", logo: "/images/gallery/2025_Indonesia_National_Football_Team_Badge.png" },
@@ -188,6 +167,7 @@ export const matches: Match[] = [
   {
     id: "match-016",
     date: "2026-10-05",
+    endDate: "2026-10-13",
     time: "TBD",
     team: "timnas",
     homeTeam: { name: "Indonesia", logo: "/images/gallery/2025_Indonesia_National_Football_Team_Badge.png" },
@@ -200,6 +180,7 @@ export const matches: Match[] = [
   {
     id: "match-017",
     date: "2026-11-24",
+    endDate: "2026-12-05",
     time: "TBD",
     team: "timnas",
     homeTeam: { name: "Indonesia", logo: "/images/gallery/2025_Indonesia_National_Football_Team_Badge.png" },
