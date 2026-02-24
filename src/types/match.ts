@@ -1,6 +1,6 @@
 export type MatchTeam = "timnas" | "warbeyen";
 export type MatchStatus = "upcoming" | "past" | "live";
-export type Competition = "Friendly" | "2. Bundesliga" | "AFC Qualifiers" | "AFF Championship" | "Asian Games" | "Other";
+export type Competition = "Friendly" | "2. Bundesliga" | "AFC Qualifiers" | "AFF Championship" | "AFF Women's Cup 2026" | "FIFA Match Day" | "Asian Games" | "Other";
 
 export interface Match {
   id: string;
