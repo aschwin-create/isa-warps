@@ -52,9 +52,7 @@ export function PhotoGallery() {
   useEffect(() => {
     async function loadFlickrPhotos() {
       try {
-        console.log("Fetching Flickr photos...");
         const photos = await fetchFlickrPhotos();
-        console.log("Flickr photos received:", photos.length);
 
         const mappedPhotos: GalleryImage[] = photos.map((photo) => ({
           id: photo.id,
@@ -64,7 +62,6 @@ export function PhotoGallery() {
           link: photo.link,
         }));
 
-        console.log("Mapped photos:", mappedPhotos.length);
         setFlickrPhotos(mappedPhotos);
       } catch (error) {
         console.error("Failed to load Flickr photos:", error);

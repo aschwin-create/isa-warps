@@ -32,12 +32,6 @@ export async function POST(request: NextRequest) {
 
     // Check if API key is configured
     if (!process.env.RESEND_API_KEY) {
-      console.log("Partnership inquiry (email not sent - API key not configured):", {
-        companyName,
-        contactPerson,
-        email,
-        tierInterest: tierName,
-      });
       return NextResponse.json(
         { message: "Inquiry received (email functionality will be activated soon)" },
         { status: 200 }

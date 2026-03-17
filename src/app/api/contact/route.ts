@@ -16,11 +16,6 @@ export async function POST(request: NextRequest) {
 
     // Check if API key is configured
     if (!process.env.RESEND_API_KEY) {
-      console.log("Contact form submission (email not sent - API key not configured):", {
-        name,
-        email,
-        subject,
-      });
       return NextResponse.json(
         { message: "Form received (email functionality will be activated soon)" },
         { status: 200 }
@@ -29,9 +24,6 @@ export async function POST(request: NextRequest) {
 
     // Send email using Resend
     const resend = new Resend(process.env.RESEND_API_KEY);
-
-    console.log("Attempting to send email to:", "isa@warps.nl");
-    console.log("From:", "noreply@isawarps.com");
 
     const result = await resend.emails.send({
       from: "Isa Warps Website <noreply@isawarps.com>",
@@ -47,8 +39,6 @@ export async function POST(request: NextRequest) {
         <p>${message.replace(/\n/g, "<br>")}</p>
       `,
     });
-
-    console.log("Email send result:", result);
 
     return NextResponse.json(
       { message: "Email sent successfully", result },

@@ -22,19 +22,15 @@ export interface FlickrFeed {
 
 export async function fetchFlickrPhotos(): Promise<FlickrPhoto[]> {
   try {
-    console.log("Calling /api/flickr...");
     const response = await fetch("/api/flickr", {
       cache: "no-store", // Don't cache on client-side, server handles caching
     });
-
-    console.log("API response status:", response.status);
 
     if (!response.ok) {
       throw new Error(`Failed to fetch Flickr photos: ${response.statusText}`);
     }
 
     const data = await response.json();
-    console.log("API response data:", data);
     return data.items || [];
   } catch (error) {
     console.error("Error fetching Flickr photos:", error);
