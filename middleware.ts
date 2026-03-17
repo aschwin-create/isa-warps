@@ -7,11 +7,8 @@ const intlMiddleware = createMiddleware(routing);
 export default function middleware(request: NextRequest) {
   const { pathname } = request.nextUrl;
 
-  console.log('[Middleware] pathname:', pathname);
-
   // Redirect root to default locale
   if (pathname === "/") {
-    console.log('[Middleware] Redirecting to /nl');
     const url = request.nextUrl.clone();
     url.pathname = "/nl";
     return NextResponse.redirect(url);
