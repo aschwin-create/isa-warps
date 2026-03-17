@@ -5,6 +5,7 @@ import { motion, useScroll, useTransform } from "motion/react";
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import { ArrowRight } from "lucide-react";
+import Image from "next/image";
 
 export function HeroSection() {
   const t = useTranslations("Home.hero");
@@ -20,14 +21,17 @@ export function HeroSection() {
   return (
     <section ref={ref} className="relative h-screen overflow-hidden bg-primary">
       {/* Parallax Background */}
-      <motion.div style={{ y }} className="absolute inset-0">
-        <div
-          className="absolute inset-0 bg-cover bg-center scale-110"
-          style={{
-            backgroundImage:
-              "url('/images/hero/54850393411_1bebc69b53_o.jpg')",
-          }}
-        />
+      <motion.div style={{ y }} className="absolute inset-0 overflow-hidden">
+        <div className="absolute inset-0 scale-110">
+          <Image
+            src="/images/hero/54850393411_1bebc69b53_o.jpg"
+            alt="Isa Warps"
+            fill
+            priority
+            className="object-cover object-center"
+            sizes="100vw"
+          />
+        </div>
         <div className="absolute inset-0 bg-gradient-to-t from-primary via-primary/60 to-primary/30" />
         <div className="absolute inset-0 bg-gradient-to-r from-primary/80 to-transparent" />
       </motion.div>

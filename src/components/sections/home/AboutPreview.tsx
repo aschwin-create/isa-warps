@@ -4,6 +4,7 @@ import { motion } from "motion/react";
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import { ArrowRight } from "lucide-react";
+import Image from "next/image";
 
 export function AboutPreview() {
   const t = useTranslations("Home.about");
@@ -19,13 +20,15 @@ export function AboutPreview() {
           transition={{ duration: 1.2, ease: [0.25, 0.1, 0.25, 1] }}
           className="relative min-h-[50vh] lg:min-h-full"
         >
-          <div
-            className="absolute inset-0 bg-cover bg-center"
-            style={{
-              backgroundImage:
-                "url('/images/gallery/Isa-Warps-bus-squar.jpg')",
-            }}
-          />
+          <div className="absolute inset-0">
+            <Image
+              src="/images/gallery/Isa-Warps-bus-squar.jpg"
+              alt="Isa Warps"
+              fill
+              className="object-cover object-center"
+              sizes="(max-width: 1024px) 100vw, 50vw"
+            />
+          </div>
           <div className="absolute inset-0 bg-gradient-to-r from-transparent to-primary/20 lg:to-surface/10" />
         </motion.div>
 
