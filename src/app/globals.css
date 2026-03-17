@@ -34,8 +34,8 @@
   --color-error: #EF4444;
 
   /* Typography - Bold, editorial */
-  --font-heading: "Montserrat", ui-sans-serif, system-ui, sans-serif;
-  --font-body: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-heading: var(--font-montserrat), ui-sans-serif, system-ui, sans-serif;
+  --font-body: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
 
   /* Shadows - Subtle, Nike-minimal */
   --shadow-card: 0 1px 3px rgb(0 0 0 / 0.04), 0 1px 2px rgb(0 0 0 / 0.06);
