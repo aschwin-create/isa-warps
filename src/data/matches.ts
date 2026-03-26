@@ -67,7 +67,9 @@ export const matches: Match[] = [
     isHome: false,
     venue: { stadium: "Borussia-Park", city: "Mönchengladbach", country: "Germany" },
     competition: "2. Bundesliga",
-    status: "upcoming",
+    status: "past",
+    result: { homeScore: 2, awayScore: 1 },
+    stats: { minutesPlayed: 90, goals: 0, assists: 0 },
   },
   {
     id: "match-005",
