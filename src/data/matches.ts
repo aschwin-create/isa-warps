@@ -148,7 +148,7 @@ export const matches: Match[] = [
   {
     id: "match-011",
     date: "2026-04-12",
-    time: "TBD",
+    time: "16:00",
     team: "timnas",
     homeTeam: { name: "Congo", logo: "/images/gallery/Congolese_Association_Football_Federation_logo.png" },
     awayTeam: { name: "Indonesia", logo: "/images/gallery/2025_Indonesia_National_Football_Team_Badge.png" },
@@ -162,7 +162,7 @@ export const matches: Match[] = [
     date: "2026-04-15",
     time: "TBD",
     team: "timnas",
-    homeTeam: { name: "Thailand", logo: "/images/gallery/Thailand_national_football_team_logo,_March_2018.png" },
+    homeTeam: { name: "TBD", logo: "/images/teams/tbd.svg" },
     awayTeam: { name: "Indonesia", logo: "/images/gallery/2025_Indonesia_National_Football_Team_Badge.png" },
     isHome: false,
     venue: { stadium: "Ratchaburi Stadium", city: "Ratchaburi", country: "Thailand" },
