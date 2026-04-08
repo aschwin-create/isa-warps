@@ -95,7 +95,9 @@ export const matches: Match[] = [
     isHome: true,
     venue: { stadium: "Sportpark am Bresserberg", city: "Kleve", country: "Germany" },
     competition: "2. Bundesliga",
-    status: "upcoming",
+    status: "past",
+    result: { homeScore: 0, awayScore: 4 },
+    stats: { minutesPlayed: 10, goals: 0, assists: 0 },
   },
   {
     id: "match-007",
