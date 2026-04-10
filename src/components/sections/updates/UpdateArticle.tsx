@@ -183,8 +183,9 @@ export function UpdateArticle({ update, relatedUpdates }: UpdateArticleProps) {
                   return (
                     <div key={index} className="my-8 bg-surface rounded-2xl border border-border-light p-6 not-prose space-y-3">
                       {lines.map((line, i) => {
-                        const emoji = line.trim().charAt(0);
-                        const rest = line.trim().slice(1).trim();
+                        const chars = [...line.trim()];
+                        const emoji = chars[0];
+                        const rest = chars.slice(1).join('').trim();
                         const boldMatch = rest.match(/^\*\*([^*]+):\*\*\s*(.*)/);
                         if (boldMatch) {
                           return (
