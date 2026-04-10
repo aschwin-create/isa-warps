@@ -15,6 +15,12 @@ import type { Update, UpdateCategory } from "@/types/update";
 
 const dateLocales: Record<string, typeof nl> = { nl, en: enUS, id, de, fr };
 
+function renderInline(text: string): string {
+  return text
+    .replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>')
+    .replace(/\*([^*]+)\*/g, '<em>$1</em>');
+}
+
 const categoryBadgeVariants: Record<UpdateCategory, "red" | "blue" | "success" | "gold"> = {
   matches: "red",
   training: "blue",
@@ -142,25 +148,24 @@ export function UpdateArticle({ update, relatedUpdates }: UpdateArticleProps) {
 
             {/* Article body */}
             <div className="prose prose-lg max-w-none">
-              {content.split('\n\n').map((paragraph, index) => {
-                // Check if this is a heading (starts with ##)
-                if (paragraph.startsWith('## ')) {
-                  const headingText = paragraph.replace('## ', '');
+              {content.split('\n\n').map((block, index) => {
+                // Heading ##
+                if (block.startsWith('## ')) {
                   return (
                     <h2
                       key={index}
                       className="text-2xl md:text-3xl font-heading font-bold text-primary mt-12 mb-6 first:mt-0"
                     >
-                      {headingText}
+                      {block.replace('## ', '')}
                     </h2>
                   );
                 }
-                // Check if this is an image (markdown syntax ![alt](path))
-                const imageMatch = paragraph.match(/^!\[([^\]]*)\]\(([^)]+)\)$/);
+                // Image ![alt](src)
+                const imageMatch = block.match(/^!\[([^\]]*)\]\(([^)]+)\)$/);
                 if (imageMatch) {
                   const [, alt, src] = imageMatch;
                   return (
-                    <div key={index} className="my-8 rounded-lg overflow-hidden">
+                    <div key={index} className="my-8 rounded-2xl overflow-hidden">
                       <Image
                         src={src}
                         alt={alt}
@@ -171,15 +176,52 @@ export function UpdateArticle({ update, relatedUpdates }: UpdateArticleProps) {
                     </div>
                   );
                 }
-                // Regular paragraph
-                if (paragraph.trim()) {
+                const lines = block.split('\n').filter(l => l.trim());
+                // Info block: lines with **key:** value pattern — check FIRST (more specific)
+                const isInfoBlock = lines.length > 1 && lines.every(l => /\*\*[^*]+:\*\*/.test(l));
+                if (isInfoBlock) {
+                  return (
+                    <div key={index} className="my-8 bg-surface rounded-2xl border border-border-light p-6 not-prose space-y-3">
+                      {lines.map((line, i) => {
+                        const emoji = line.trim().charAt(0);
+                        const rest = line.trim().slice(1).trim();
+                        const boldMatch = rest.match(/^\*\*([^*]+):\*\*\s*(.*)/);
+                        if (boldMatch) {
+                          return (
+                            <div key={i} className="flex items-center gap-3 text-base">
+                              <span className="text-xl shrink-0">{emoji}</span>
+                              <span className="font-heading font-bold text-primary shrink-0">{boldMatch[1]}:</span>
+                              <span className="text-text-light">{boldMatch[2]}</span>
+                            </div>
+                          );
+                        }
+                        return <p key={i} className="text-text-light">{line}</p>;
+                      })}
+                    </div>
+                  );
+                }
+                // List block: every line starts with - • or emoji
+                const isListBlock = lines.length > 1 && lines.every(l => /^[-•📊🎥🔍]\s/.test(l.trim()));
+                if (isListBlock) {
+                  return (
+                    <ul key={index} className="my-6 space-y-3 not-prose">
+                      {lines.map((line, i) => (
+                        <li key={i} className="flex items-start gap-3 text-lg text-text-light leading-relaxed">
+                          <span className="mt-0.5 shrink-0">{line.trim().charAt(0)}</span>
+                          <span dangerouslySetInnerHTML={{ __html: renderInline(line.trim().slice(1).trim()) }} />
+                        </li>
+                      ))}
+                    </ul>
+                  );
+                }
+                // Regular paragraph — support inline bold and line breaks
+                if (block.trim()) {
                   return (
                     <p
                       key={index}
                       className="text-lg md:text-xl text-text-light leading-relaxed mb-6"
-                    >
-                      {paragraph}
-                    </p>
+                      dangerouslySetInnerHTML={{ __html: renderInline(block.replace(/\n/g, '<br />')) }}
+                    />
                   );
                 }
                 return null;
