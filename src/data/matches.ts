@@ -166,7 +166,7 @@ export const matches: Match[] = [
     date: "2026-04-15",
     time: "TBD",
     team: "timnas",
-    homeTeam: { name: "TBD", logo: "/images/teams/tbd.svg" },
+    homeTeam: { name: "New Caledonia", logo: "/images/gallery/New Caledonia women.png" },
     awayTeam: { name: "Indonesia", logo: "/images/gallery/2025_Indonesia_National_Football_Team_Badge.png" },
     isHome: false,
     venue: { stadium: "Ratchaburi Stadium", city: "Ratchaburi", country: "Thailand" },
