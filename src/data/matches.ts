@@ -184,7 +184,7 @@ export const matches: Match[] = [
     awayTeam: { name: "Indonesia", logo: "/images/gallery/2025_Indonesia_National_Football_Team_Badge.png" },
     isHome: false,
     venue: { stadium: "Te bevestigen", city: "Cambodia", country: "Cambodia" },
-    competition: "International Friendly",
+    competition: "Friendly",
     status: "upcoming",
   },
   {
