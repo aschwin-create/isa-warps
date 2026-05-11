@@ -172,6 +172,8 @@ export const matches: Match[] = [
     venue: { stadium: "Ratchaburi Stadium", city: "Ratchaburi", country: "Thailand" },
     competition: "FIFA Match Day",
     status: "past",
+    result: { homeScore: 2, awayScore: 4 },
+    stats: { minutesPlayed: 45, goals: 0, assists: 0 },
   },
   {
     id: "match-013",
