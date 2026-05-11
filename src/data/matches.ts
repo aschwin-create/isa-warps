@@ -110,6 +110,7 @@ export const matches: Match[] = [
     venue: { stadium: "Karl-Liebknecht-Stadion", city: "Potsdam", country: "Germany" },
     competition: "2. Bundesliga",
     status: "past",
+    result: { homeScore: 3, awayScore: 0 },
     stats: { minutesPlayed: 0, goals: 0, assists: 0 },
   },
   {
@@ -123,6 +124,7 @@ export const matches: Match[] = [
     venue: { stadium: "Sportpark am Bresserberg", city: "Kleve", country: "Germany" },
     competition: "2. Bundesliga",
     status: "past",
+    result: { homeScore: 1, awayScore: 2 },
     stats: { minutesPlayed: 0, goals: 0, assists: 0 },
   },
   {
@@ -136,6 +138,7 @@ export const matches: Match[] = [
     venue: { stadium: "Friedrich-Ludwig-Jahn-Sportpark", city: "Berlin", country: "Germany" },
     competition: "2. Bundesliga",
     status: "past",
+    result: { homeScore: 3, awayScore: 0 },
     stats: { minutesPlayed: 0, goals: 0, assists: 0 },
   },
   {
