@@ -160,6 +160,22 @@ export function UpdateArticle({ update, relatedUpdates }: UpdateArticleProps) {
                     </h2>
                   );
                 }
+                // YouTube embed
+                const youtubeMatch = block.match(/^https?:\/\/(?:youtu\.be\/|www\.youtube\.com\/watch\?v=)([\w-]+)/);
+                if (youtubeMatch) {
+                  const videoId = youtubeMatch[1];
+                  return (
+                    <div key={index} className="my-8 rounded-2xl overflow-hidden aspect-video">
+                      <iframe
+                        src={`https://www.youtube.com/embed/${videoId}`}
+                        title="YouTube video"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowFullScreen
+                        className="w-full h-full"
+                      />
+                    </div>
+                  );
+                }
                 // Image ![alt](src)
                 const imageMatch = block.match(/^!\[([^\]]*)\]\(([^)]+)\)$/);
                 if (imageMatch) {
