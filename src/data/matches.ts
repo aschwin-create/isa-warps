@@ -187,7 +187,7 @@ export const matches: Match[] = [
     time: "TBD",
     team: "timnas",
     homeTeam: { name: "Indonesia", logo: "/images/gallery/2025_Indonesia_National_Football_Team_Badge.png" },
-    awayTeam: { name: "Singapore", logo: "/images/gallery/singapore-women.png" },
+    awayTeam: { name: "Singapore", logo: "/images/gallery/singapore-women-square.png" },
     isHome: true,
     venue: { stadium: "Stadion Arcamanik", city: "Bandung", country: "Indonesia" },
     competition: "Friendly",
