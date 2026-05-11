@@ -186,7 +186,7 @@ export const matches: Match[] = [
     date: "2026-06-06",
     time: "TBD",
     team: "timnas",
-    homeTeam: { name: "Cambodia", logo: "/images/gallery/Cambodia.png" },
+    homeTeam: { name: "Cambodia", logo: "/images/gallery/Football_Federation_of_Cambodia_logo.png" },
     awayTeam: { name: "Indonesia", logo: "/images/gallery/2025_Indonesia_National_Football_Team_Badge.png" },
     isHome: false,
     venue: { stadium: "Te bevestigen", city: "Cambodia", country: "Cambodia" },
